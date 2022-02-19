@@ -6,7 +6,9 @@
   "scripts": {
     "start": "webpack serve --config webpack.dev.js ",
     "build": "webpack --config webpack.prod.js",
-    "test": "jest"
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage --colors"
   },
   "author": "",
   "license": "ISC",
@@ -17,8 +19,11 @@
     "@babel/preset-react": "^7.16.7",
     "babel-loader": "^8.2.3",
     "css-loader": "^6.5.1",
-    "file-loader": "^6.2.0",
+    "enzyme": "^3.11.0",
+    "enzyme-adapter-react-16": "^1.15.6",
     "html-webpack-plugin": "^5.5.0",
+    "jest": "^27.5.1",
+    "jest-cli": "^27.5.1",
     "sass": "^1.49.0",
     "sass-loader": "^12.4.0",
     "style-loader": "^3.3.1",
