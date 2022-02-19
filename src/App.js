@@ -1,6 +1,8 @@
 import React from "react"
-import "./App.css"
+
 import reactIcon from "../public/assets/reactIcon.png"
+
+import "./App.css"
 
 const App = () => {
   return (
