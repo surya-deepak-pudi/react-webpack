@@ -4,6 +4,6 @@ let dummyReducer = (state = {}) => {
   return state
 }
 
-const reducer = combineReducers({ dummy: combineReducers })
+const reducer = combineReducers({ dummy: dummyReducer })
 
 export default reducer
